@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# tgme
+# tgme <img src='man/figures/logo.svg' align="right" height="139" />
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -94,7 +94,7 @@ library(tictoc)
 tic()
 Sys.sleep(5)
 fin <- toc()
-#> 5.03 sec elapsed
+#> 5.11 sec elapsed
 
 
 tgme(text = paste0("Job is done for ",
