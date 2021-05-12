@@ -18,7 +18,15 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-Major thanks to Rich Pauloo for the [{textme}](https://github.com/richpauloo/textme) package and Luca Braglia for the [{telegram}](https://github.com/lbraglia/telegram), which this package relies entirely upon.
+This is a very simple package with only one function `tgme`. The aim of this package is to send you a message when a job on Rstudio server is done (or on your local machine). It is a free alternative to the Rich Pauloo's [{textme}](https://github.com/richpauloo/textme) package.
+
+Many thanks to Luca Braglia for the [{telegram}](https://github.com/lbraglia/telegram), which this package relies entirely upon.
+
+
+
+```{r, echo=FALSE, fig.align="center", out.width="50%"}
+knitr::include_graphics("images/hello.png")
+```
 
 ## Installation
 

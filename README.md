@@ -6,10 +6,16 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Major thanks to Rich Pauloo for the
-[{textme}](https://github.com/richpauloo/textme) package and Luca
-Braglia for the [{telegram}](https://github.com/lbraglia/telegram),
-which this package relies entirely upon.
+This is a very simple package with only one function `tgme`. The aim of
+this package is to send you a message when a job on Rstudio server is
+done (or on your local machine). It is a free alternative to the Rich
+Pauloo’s [{textme}](https://github.com/richpauloo/textme) package.
+
+Many thanks to Luca Braglia for the
+[{telegram}](https://github.com/lbraglia/telegram), which this package
+relies entirely upon.
+
+<img src="images/hello.png" width="50%" style="display: block; margin: auto;" />
 
 ## Installation
 
@@ -88,7 +94,7 @@ library(tictoc)
 tic()
 Sys.sleep(5)
 fin <- toc()
-#> 5.09 sec elapsed
+#> 5.03 sec elapsed
 
 
 tgme(text = paste0("Job is done for ",
