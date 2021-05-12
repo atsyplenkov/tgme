@@ -4,10 +4,14 @@
 \alias{tgme}
 \title{Send a message to telegram bot.}
 \usage{
-tgme(text)
+tgme(text, bot_name = "rstudio_server", user_name = "me")
 }
 \arguments{
 \item{text}{A message to send.}
+
+\item{bot_name}{A name of the Telegram Bot}
+
+\item{user_name}{A name of the user}
 }
 \value{
 A message sent to the desired telegram bot.

@@ -13,6 +13,14 @@ This package will be familiar to fans of beepr or textme.
     a text message via the instant that your job finishes. This package
     uses telegram package to send text messages, and thus requires a Telegram account..
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/atsyplenkov/tgme}
+  \item Report bugs at \url{https://github.com/atsyplenkov/tgme/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Anatoly Tsyplenkov \email{atsyplenkov@gmail.com} (\href{https://orcid.org/0000-0003-4144-8402}{ORCID})
 
